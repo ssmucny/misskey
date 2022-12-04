@@ -36,7 +36,7 @@
 					<template #label>{{ i18n.ts.token }}</template>
 					<template #prefix><i class="fas fa-gavel"></i></template>
 				</MkInput>
-				<MkButton type="submit" :disabled="signing" primary style="margin: 0 auto;">{{ signing ? i18n.ts.loggingIn : i18n.ts.login }}</MkButton>
+				<MkButton type="submit" :disabled="signing" primary style="margin: 8px auto;">{{ signing ? i18n.ts.loggingIn : i18n.ts.login }}</MkButton>
 			</div>
 		</div>
 	</div>
